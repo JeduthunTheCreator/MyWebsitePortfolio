@@ -1,0 +1,236 @@
+﻿.about-section {
+    background: #333;
+    padding: 4rem 3rem;
+    color: white;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    border: 2px solid #333;
+    margin-top: -180px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+
+.about-img-box{
+    flex: 1 1 45%;
+    position:relative;
+}
+
+.about-image {
+    position: relative;
+    z-index: 1;
+}
+
+.about-image img{
+    width:100%;
+    border-radius:20px;
+}
+
+.about-content-box{
+    flex: 1 1 50%;
+}
+
+
+.about-content-box h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-content-box p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.buttons {
+    justify-content: center;
+    display: flex;
+    gap: 1rem;
+}
+
+/* Skills Styles */
+.skills {
+    background-color: white;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+
+/* Professional Journey Styles */
+.tabs-section {
+    background: url('Images/Beige3.jpg') no-repeat fixed center;
+    text-align: center;
+    padding: 130px 80px;
+    color: #333;
+}
+
+.tabs-section-container {
+    background-color: #EDE8D0;
+    border-radius: 20px;
+    padding: 60px 80px;
+    max-width: 2500px;
+    margin: 0 auto;
+    box-shadow: 0px 34px 150px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+}
+
+.tab-header {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.tab-header a {
+    background-color: #c55911;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    transition: background-color 2s ease;
+}
+
+.tab-header a.active,
+.tab-header a:hover {
+    background-color: white;
+    color: black;
+}
+
+.tab-content {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.timeline {
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.4);
+    transform: translateX(-50%);
+}
+
+.timeline li {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.timeline .dot {
+    position: absolute;
+    left: 50%;
+    top: 25px;
+    transform: translateX(-50%);
+    width: 18px;
+    height: 18px;
+    background: rgba(197, 89, 17, 0.2);
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.timeline .dot::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px; 
+    height: 10px; 
+    background: #c55911; 
+    border-radius: 50%;
+}
+
+.timeline .media {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 0 20px;
+}
+
+.timeline .d-flex {
+    width: 45%;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.timeline .media-body {
+    width: 45%;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.timeline .date {
+    font-weight: bold;
+}
+
+
+
+/* ========== ✅ Mobile Responsive Styles ========== */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-img-box,
+    .about-content-box {
+        flex: 1 1 100%;
+    }
+
+    .about-content-box h2 {
+        font-size: 1.75rem;
+    }
+
+    .about-content-box p {
+        font-size: 1rem;
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+
+    .timeline li {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .timeline::before {
+        left: 8px;
+    }
+
+    .timeline li .dot {
+        left: 8px;
+    }
+
+    .timeline li .details {
+        width: calc(100% - 24px);
+        margin-left: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-content-box h2 {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 0.6rem 1rem;
+    }
+}

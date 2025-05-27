@@ -1,0 +1,25 @@
+/* Logo styles */
+.logo {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.logo-image {
+    height: 40px;
+    width: auto;
+}
+
+/* For desktop/mobile specific logos */
+.logo.desktop {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .logo.desktop {
+        display: block;
+    }
+
+    .logo.mobile {
+        display: none;
+    }
+}

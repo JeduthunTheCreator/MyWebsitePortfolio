@@ -1,0 +1,189 @@
+﻿.projects-section {
+    background: #333;
+    color: white;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.projects-section .section-title {
+    padding-bottom: 40px;
+}
+
+
+.projects-section .project-item {
+    background-color: var(--surface-color);
+    box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
+    padding: 60px 30px;
+    transition: all ease-in-out 0.3s;
+    border-radius: 18px;
+    border-bottom: 5px solid var(--surface-color);
+    height: 100%;
+}
+
+.projects-section .project-item {
+    background-color: #EDE8D0;
+    cursor: pointer;
+}
+
+.projects-section .project-item .icon {
+    color: white;
+    background: var(--accent-color);
+    margin: 0;
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    transition: ease-in-out 0.3s;
+}
+
+.projects-section .project-item h3 {
+    color: #333333;
+    font-weight: 700;
+    margin: 10px 0 15px 0;
+    font-size: 22px;
+    transition: ease-in-out 0.3s;
+}
+
+.projects-section .project-item p {
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.project-item {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.project-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    height: 90%;
+    opacity: 0;
+    background: rgba(150, 150, 150, 0.05);
+    color: #ffffff;
+    padding: 20px;
+    border: 1px solid rgba(150, 150, 150, 0.5);
+    border-radius: 18px;
+    transform: translate(-50%, -50%) scale(1);
+    transition: all 0.6s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    font-size: 14px;
+    z-index: 2;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(15px);
+    pointer-events: none;
+}
+
+.projects-section .project-item .project-overlay p {
+    color: #ffffff ;
+    opacity: 1;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.project-overlay strong {
+    color: var(--accent-color); 
+    font-weight: 600;
+}
+
+.project-overlay em {
+    color: #cccccc; 
+    font-style: italic;
+}
+
+.project-item:hover .project-overlay {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.project-item:hover .project-overlay h3,
+.project-item:hover .project-overlay p {
+    opacity: 1;
+}
+
+.project-item .project-overlay .project-skills-badges .overlay-text {
+    padding-top: 30px;
+    align-content: center;
+    transition: all 0.3s ease
+}
+
+.project-item .project-overlay .project-skills-badges .overlay-text:hover {
+    text-decoration: underline;
+    color: #333;
+    font-weight: bold;
+}
+
+.project-item:hover h3,
+.project-item:hover p {
+    opacity: 0.1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.project-skills-badges,
+.project-skill-badge {
+    pointer-events: auto;
+}
+
+.project-skills-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-skill-badge {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #454545;
+    border: 2px solid white;
+    padding: 0.5rem 0.875rem;
+    border-radius: 50px;
+    font-size: 0.875rem;
+    background: rgba(150, 150, 150, 0.10);
+    color: white;
+}
+
+.project-skill-badge span {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+}
+
+.project-skill-badge svg {
+    font-weight: bold;
+}
+
+.project-skills-badges .project-skill-badge:hover {
+    background-color: white;
+    transform: translateY(-1px);
+    color: #333;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+@media (min-width: 1365px) {
+    .projects-section .project-item:hover {
+        transform: translateY(-10px);
+        border-color: var(--accent-color);
+    }
+
+    .projects-section .project-item:hover h3 {
+        color: var(--accent-color);
+    }
+}

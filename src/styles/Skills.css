@@ -1,0 +1,137 @@
+﻿.skills-section {
+    background-color: #333;
+    color: white;
+    padding: 4rem 1.5rem;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.skills-card {
+    background-color: #3d3d3d;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 1;
+    background: linear-gradient( 
+            145deg, 
+            rgba(70, 70, 70, 0.4), 
+            rgba(50, 50, 50, 0.7) );
+    backdrop-filter: blur(10px);
+}
+
+.skills-card[data-aos="fade-up"].aos-animate {
+    transform: translateY(0); 
+}
+
+.skills-card[data-aos="fade-up"].aos-animate:hover {
+    transform: scale(1.02) ;
+    box-shadow: 0 0 10px rgba(100, 116, 139, 0.5);
+    z-index: 999;
+}
+
+.skills-card:hover {
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.2), 
+                0 0 20px rgba(255, 255, 255, 0.08), 
+                0 0 40px rgba(200, 200, 200, 0.08), 
+                inset 0 0 2px rgba(255, 255, 255, 0.1);
+    z-index: 999;
+}
+
+.skills-title {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #f8fafc;
+}
+
+.skills-title span {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    justify-content: center;
+    background-color: #454545;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.skills-content-box {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.text-column {
+    flex: 1;
+    max-width: 50%;
+}
+
+.sphere-column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.skills-title span:hover {
+    background-color: rgba(255, 127, 0, 0.05);
+    transform: translateY(-1px);
+    transition: all 0.2s ease;
+}
+
+.skill-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #454545;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 0.5rem 0.875rem;
+    border-radius: 50px;
+    font-size: 0.875rem;
+    transition: all 0.2s ease;
+}
+
+.skill-badge span {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+}
+
+.skill-badge:hover {
+    background-color: rgba(255, 127, 0, 0.05);
+    transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+    .skills-content-box {
+        flex-direction: column;
+    }
+    
+    .text-column {
+        max-width: 100%;
+    }
+}
+
+.title {
+    margin-bottom: 1rem;
+}

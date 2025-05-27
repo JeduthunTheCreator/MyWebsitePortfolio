@@ -1,0 +1,53 @@
+﻿.contact-area{
+    padding-top: 130px;
+    background: #333;
+
+}
+
+.contact-area .section-title {
+    color: white;
+}
+.contact-area .contact-form {
+    background: #333333;
+}
+
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    background-color: #333;
+}
+
+.contact .contact-form input {
+    border-radius: .2rem;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    padding: 5rem 0;
+    border-radius: 5px;
+}
+
+.form-control {
+    width: 100%;
+    height: 60px;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #333333;
+    padding: 20px;
+}
+
+.form-control::placeholder {
+    color: #fff;
+}
+
+.contact-area .contact-form .y-button {
+    width: 200px;
+}
+
+/* Toast Notification styles*/
+

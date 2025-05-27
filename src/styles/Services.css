@@ -1,0 +1,75 @@
+﻿.services {
+    background-color: #EDE8D0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+}
+
+.services-container {
+  background-color: #333;
+  border-radius: 20px;
+  padding: 60px 40px;
+  max-width: 2500px;
+  margin: 0 auto;
+  box-shadow: 0px 34px 150px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
+}
+
+.services .section-title {
+    color: white;
+}
+
+.services .section-title {
+    padding-bottom: 28px;
+}
+
+.services .single-service {
+    background: white;
+    padding: 100px 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 34px 150px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 115px;
+    position: relative;
+}
+
+.services .single-service i {
+    height: 130px;
+    width: 130px;
+    background: #DEA193;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 130px;
+    color: #fff;
+    font-size: 60px;
+    position: absolute;
+    left: 40px;
+    top: -75px;
+    transition: all linear 0.4s;
+    box-shadow: 0px 30px 30px -15px rgba(0, 0, 0, 0.75);
+}
+
+.services .single-service .title {
+    color: #333;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.services .single-service p {
+    line-height: 30px;
+    padding-top: 10px;
+    color: #333333;
+}
+
+/*------ width 1200 > 991px ------*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .services .single-service p {
+        font-size: 14px;
+    }
+}
+
+.services .single-service:hover i {
+    background: #fff;
+    color: var(--accent-color);
+    box-shadow: none;
+}
