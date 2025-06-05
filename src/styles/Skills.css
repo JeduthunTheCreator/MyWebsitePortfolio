@@ -75,18 +75,6 @@
     padding: 2rem;
 }
 
-.text-column {
-    flex: 1;
-    max-width: 50%;
-}
-
-.sphere-column {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .skills-badges {
     display: flex;
     flex-wrap: wrap;
@@ -122,6 +110,8 @@
     transform: translateY(-1px);
 }
 
+
+/* ========== ✅ Mobile Responsive Styles ========== */
 @media (max-width: 768px) {
     .skills-content-box {
         flex-direction: column;

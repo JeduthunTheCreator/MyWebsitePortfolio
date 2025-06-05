@@ -1,4 +1,4 @@
-﻿/* Footer.css */
+﻿
 .footer-wrapper {
     position: fixed;
     top: 0;
@@ -150,10 +150,15 @@
     gap: 20px;
 }
 
-/* Responsive styles */
+/* ========== ✅ Mobile Responsive Styles ========== */
 @media (max-width: 768px) {
     .footer-container {
         padding: 40px 20px;
+    }
+
+    .footer-text {
+        position: relative;
+        top: -25px;
     }
 
     .footer-columns {
@@ -172,5 +177,30 @@
     .footer-social-legal {
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 450px) {
+    .legal-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .location {
+        position: relative;
+        top: -50px;
+    }
+
+    .legal-links {
+        top: -40px;
+    }
+
+    .social-links {
+        top: -10px;
+    }
+
+    .footer-text {
+        position: relative;
+        top: -65px;
     }
 }

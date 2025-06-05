@@ -5,6 +5,7 @@ import emailjs from '@emailjs/browser';
 import { useState } from 'react';
 
 
+
 const Contact = () => {
     const [formData, setFormData] = useState({
         name: '',
@@ -95,7 +96,7 @@ const Contact = () => {
                                         </div>
                                         <div className="col-lg-12">
                                             <div className="form-group">
-                                                <textarea id="form_message" className="form-control bg-[#EDE8D0]" name="message" value={formData.message} onChange={handleChange} placeholder="Message" rows="4" required></textarea>
+                                                <textarea id="form_message" className="form-control bg-[#EDE8D0] h-[200px]" name="message" value={formData.message} onChange={handleChange} placeholder="Message" rows="8" required></textarea>
                                             </div>
                                         </div>
                                         <div className="col-lg-12">

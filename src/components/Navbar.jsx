@@ -59,11 +59,9 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
                     </Link>
                 </div>
 
-                <div className="relative">
-                    <button className={`menu-toggle ${menuOpen ? "open" : ""}`}onClick={() => setMenuOpen(!menuOpen)}>
-                        {menuOpen ? '✕' : '☰'}
-                    </button>
-                </div>
+            <button className={`menu-toggle ${menuOpen ? "open" : ""}`}onClick={() => setMenuOpen(!menuOpen)}>
+                {menuOpen ? '✕' : '☰'}
+            </button>
 
                 <nav className= "navbar">
                     <ul className={`nav-links ${menuOpen ? "open" : ""}`}>

@@ -13,16 +13,19 @@
     <PackageJsonDependenciesFontsourceInter Condition="$(PackageJsonDependenciesFontsourceInter) == ''">^5.2.5</PackageJsonDependenciesFontsourceInter>
     <PackageJsonDependenciesFontsourcePlayfairDisplay Condition="$(PackageJsonDependenciesFontsourcePlayfairDisplay) == ''">^5.2.5</PackageJsonDependenciesFontsourcePlayfairDisplay>
     <PackageJsonDependenciesFortawesomeFontawesomeFree Condition="$(PackageJsonDependenciesFortawesomeFontawesomeFree) == ''">^6.7.2</PackageJsonDependenciesFortawesomeFontawesomeFree>
+    <PackageJsonDependenciesReactSpringWeb Condition="$(PackageJsonDependenciesReactSpringWeb) == ''">^10.0.1</PackageJsonDependenciesReactSpringWeb>
     <PackageJsonDependenciesStudioFreightLenis Condition="$(PackageJsonDependenciesStudioFreightLenis) == ''">^1.0.42</PackageJsonDependenciesStudioFreightLenis>
     <PackageJsonDependenciesAos Condition="$(PackageJsonDependenciesAos) == ''">^2.3.4</PackageJsonDependenciesAos>
     <PackageJsonDependenciesBootstrap Condition="$(PackageJsonDependenciesBootstrap) == ''">^5.3.5</PackageJsonDependenciesBootstrap>
     <PackageJsonDependenciesBootstrapIcons Condition="$(PackageJsonDependenciesBootstrapIcons) == ''">^1.11.3</PackageJsonDependenciesBootstrapIcons>
-    <PackageJsonDependenciesLenis Condition="$(PackageJsonDependenciesLenis) == ''">^1.3.3</PackageJsonDependenciesLenis>
+    <PackageJsonDependenciesFramerMotion Condition="$(PackageJsonDependenciesFramerMotion) == ''">^12.15.0</PackageJsonDependenciesFramerMotion>
+    <PackageJsonDependenciesLenis Condition="$(PackageJsonDependenciesLenis) == ''">^1.3.4</PackageJsonDependenciesLenis>
     <PackageJsonDependenciesPropTypes Condition="$(PackageJsonDependenciesPropTypes) == ''">^15.8.1</PackageJsonDependenciesPropTypes>
     <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">^19.0.0</PackageJsonDependenciesReact>
     <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">^19.0.0</PackageJsonDependenciesReactDom>
     <PackageJsonDependenciesReactHotToast Condition="$(PackageJsonDependenciesReactHotToast) == ''">^2.5.2</PackageJsonDependenciesReactHotToast>
     <PackageJsonDependenciesReactIcons Condition="$(PackageJsonDependenciesReactIcons) == ''">^5.5.0</PackageJsonDependenciesReactIcons>
+    <PackageJsonDependenciesReactParallaxTilt Condition="$(PackageJsonDependenciesReactParallaxTilt) == ''">^1.7.296</PackageJsonDependenciesReactParallaxTilt>
     <PackageJsonDependenciesReactRouterDom Condition="$(PackageJsonDependenciesReactRouterDom) == ''">^7.5.1</PackageJsonDependenciesReactRouterDom>
     <PackageJsonDependenciesReactScroll Condition="$(PackageJsonDependenciesReactScroll) == ''">^1.9.3</PackageJsonDependenciesReactScroll>
     <PackageJsonDependenciesReactTagcloud Condition="$(PackageJsonDependenciesReactTagcloud) == ''">^2.3.3</PackageJsonDependenciesReactTagcloud>

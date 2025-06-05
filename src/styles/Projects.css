@@ -177,6 +177,7 @@
 
 
 
+/* ========== ✅ Responsive Styles ========== */
 @media (min-width: 1365px) {
     .projects-section .project-item:hover {
         transform: translateY(-10px);

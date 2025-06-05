@@ -135,7 +135,7 @@ const Projects = () => {
                 <div className="row gy-4">
                     {projects.map((project, index) => (
                         <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={project.delay} key={index}>
-                            <Link to={project.link} className="project-link-wrapper">
+                            <div to={project.link} className="project-link-wrapper">
                                 <div className="project-item position-relative">
                                     <div className="icon">
                                         <i className={project.icon}></i>
@@ -149,11 +149,11 @@ const Projects = () => {
                                                     {skill.name}
                                                 </span>
                                             ))}
-                                            <p className="overlay-text"> VIEW PROJECT</p>
+                                            <p className="overlay-text"> COMING SOON!! </p>
                                         </div>
                                     </div>
                                 </div>
-                            </Link>
+                            </div>
                         </div>
                     ))}
                 </div>

@@ -59,6 +59,12 @@
     font-style: italic;
 }
 
+.certificate-img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
 .certificates .swiper-wrapper {
     height: auto;
 }
@@ -71,10 +77,27 @@
 .certificates .swiper-pagination .swiper-pagination-bullet {
     width: 12px;
     height: 12px;
-    background-color: color-mix(in srgb, var(--default-color), transparent 85%);
+    background-color: #333;
     opacity: 1;
 }
 
 .certificates .swiper-pagination .swiper-pagination-bullet-active {
     background-color: var(--accent-color);
+}
+
+/* ========== ✅ Mobile Responsive Styles ========== */
+@media (max-width: 1024px) {
+    .certificate-img {
+        width: 150px;
+        height: auto;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 767px) {
+    .certificate-img {
+        width: 150px;
+        height: auto;
+        object-fit: contain;
+    }
 }

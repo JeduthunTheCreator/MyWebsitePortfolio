@@ -93,7 +93,7 @@ nav-links li {
 }
 
 
-/* Mobile styles */
+/* ========== ✅ Responsive Styles ========== */
 @media (max-width: 1199px) {
     .header {
         background-color: #333;

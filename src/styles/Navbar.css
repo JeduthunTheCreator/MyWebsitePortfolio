@@ -37,6 +37,7 @@
     margin: 0 auto;
 }
 
+
 .nav-links {
     list-style-type: none;
     margin: 0;
@@ -46,7 +47,7 @@
     align-items: center;
 }
 
-nav-links li {
+.nav-links li {
     position: relative;
     display:inlne-block;
 }
@@ -85,8 +86,37 @@ nav-links li {
     flex: 0 0 auto;
 }
 
+.menu-toggle {
+    position: fixed;
+    padding: 10px;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 1100;
+}
 
-/* Mobile styles */
+/* ========== ✅ Responsive Styles ========== */
+@media (max-width: 1025px) {
+    .menu-toggle {
+        display: block;
+    }
+    .nav-links.open {
+        display: flex;
+        top: 90px;
+        left: 0;
+        width: 100%;
+        height: 62vh;
+        gap: 15px;
+        background-color: #333;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4), 0 0 10px rgba(255, 255, 255, 0.05);
+    }
+}
+
+
+
+/* ========== ✅ Mobile Responsive Styles ========== */
 @media (max-width: 767px) {
     .header {
         background-color: #333;
@@ -101,40 +131,30 @@ nav-links li {
         background: none;
         color: white;
         border: none;
-        display: none;
+        display: block;
         padding: 14px;
     }
 
     .nav-links.open {
-        display: none;
+        display: flex;
         flex-direction: column;
-        top: 90px;
         position: fixed;
-        height: 60vh;
+        top: 90px;
+        left: 0;
+        width: 100%;
+        height: 62vh;
+        gap: 15px;
         background-color: #333;
         justify-content: center;
         align-items: center;
-        left: 0;
-        width: 100%;
-        padding: 20px 0;
+        padding: 10px 0;
         animation: menuSlideIn 0.3s ease-out;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4), 0 0 10px rgba(255, 255, 255, 0.05);
-    }
-
-    .nav-links.open {
-        display: flex;
-        padding-top: 140px;
     }
 
     .nav-links.open li {
         width: 100%;
         text-align: center;
-    }
-
-    .relative {
-        margin-bottom: 65px;
-        margin-left: 525px;
-        align-items: center;
     }
 
     .nav-links.open li a {
@@ -143,6 +163,7 @@ nav-links li {
         font-size: 13px;
         padding: 16px 0;
         transition: color 0.3s ease;
+        font-weight: 500;
     }
 
     .nav-inner {

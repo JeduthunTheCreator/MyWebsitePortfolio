@@ -116,7 +116,7 @@ function AppContent() {
                 <Routes>
                     <Route path="/fashion" element={<FashionLayout> <Fashion /> </FashionLayout>} />
                     <Route path="/" element={<DefaultLayout> <Home /> </DefaultLayout>} />
-                    <Route path="/portfolio" element={<DefaultLayout> <Portfolio /> </DefaultLayout>} />
+                    <Route path="/portfolio" element={<FashionLayout> <Portfolio /> </FashionLayout>} />
                     <Route path="/projects/cloud-based-game-recommender-system" element={<DefaultLayout> <ProjectDetails1 /> </DefaultLayout>} />
                     <Route path="/projects/travel-buddy-finder" element={<DefaultLayout> <ProjectDetails2 /> </DefaultLayout>} />
                     <Route path="/projects/video-game-chatbot" element={<DefaultLayout> <ProjectDetails3 /> </DefaultLayout>} />
