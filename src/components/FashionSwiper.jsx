@@ -5,22 +5,7 @@ import { Link } from 'react-router-dom';
 import "swiper/css";
 import "swiper/css/free-mode";
 import "../styles/FashionSwiper.css";
-
-const images = [
-    "/Images/Port1.jpg",
-    "/Images/Stylist.jpeg",
-    "/Images/WhiteRose.jpeg",
-    "/Images/Port6.jpg",
-    "/Images/Port2.jpg",
-    "/Images/ZARA.jpeg",
-    "/Images/Port3.jpg",
-    "/Images/Port4.jpg",
-    "/Images/Port5.jpg",
-    "/Images/Port7.jpg",
-    "/Images/Port8.jpg",
-    "/Images/Port9.jpg",
-    "/Images/Port10.jpg"
-];
+import images from '../data/images'
 
 const FashionSwiper = () => {
     return (

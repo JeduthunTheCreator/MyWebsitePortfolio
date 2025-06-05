@@ -3,39 +3,7 @@ import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import '../styles/Certificates.css';
-
-const certificates = [
-    {
-        name: "Microsoft Certified: Azure Fundamentals",
-        company: "Microsoft",
-        image: "/Images/Azure4.png",
-        text: "Validated understanding of core cloud concepts, Azure services, and governance tools.",
-    },
-    {
-        name: "Microsoft Certified: Azure AI Fundamentals",
-        company: "Microsoft",
-        image: "/Images/Azure4.png",
-        text: "Demonstrated foundational knowledge of AI and machine learning concepts, and the Azure services that support them.",
-    },
-    {
-        name: "WorldHost: Principles of Customer Service",
-        company: "People 1st International",
-        image: "/Images/people1st2.jpeg",
-        text: "Equipped with essential customer service skills, including effective communication, managing expectations, and creating lasting impressions.",
-    },
-    {
-        name: "Barclays Destination Hospitality Course",
-        company: "Barclays",
-        image: "/Images/Barclays2.png",
-        text: "Completed comprehensive training and work experience to launch a career in hospitality, leisure, or tourism.",
-    },
-    {
-        name: "The Digital College Accreditation: Retail Skills and Values",
-        company: "The Digital College",
-        image: "/Images/TDC.jpeg",
-        text: "Developed key communication and customer service skills essential for the retail sector.",
-    },
-];
+import certificates from '../data/certificates';
 
 const Certificates = () => {
     return (

@@ -2,6 +2,10 @@
 import { motion as Motion } from 'framer-motion';
 import '../styles/About.css';
 import Skills from './Skills.jsx';
+import mainImage from '/Images/about-image.png';
+import overlay1 from '/Images/about-bg.jpeg';
+import overlay2 from '/Images/Film-bg.png';
+import tabbackground from '/Images/Beige3.jpg';
 
 
 const About = () => {
@@ -51,7 +55,7 @@ const About = () => {
                                             damping: 40,
                                         }}
                                     >
-                                        <img src="/Images/about-image.png" alt="main-image"/>
+                                        <img src={mainImage} alt="main-image"/>
                                     </Motion.div>
 
                                     <Motion.div
@@ -66,7 +70,7 @@ const About = () => {
                                             damping: 40
                                         }}
                                     >
-                                        <img src="/Images/about-bg.jpeg" alt="Overlay 1" />
+                                        <img src={overlay1} alt="Overlay 1" />
                                     </Motion.div>
 
                                     <Motion.div
@@ -81,7 +85,7 @@ const About = () => {
                                             damping: 40
                                         }}
                                     >
-                                        <img src="/Images/Film-bg.png" alt="Overlay 2" />
+                                        <img src={overlay2} alt="Overlay 2" />
                                     </Motion.div>
 
                                 </Motion.div>
@@ -106,7 +110,7 @@ const About = () => {
 
             <Skills />
 
-            <section className="tabs-section" id="experience-education">
+            <section className="tabs-section" id="experience-education" style={{ backgroundImage: `url(${tabbackground})` }}>
                 <div className="tabs-section-container">
                     <div className="tab-header">
                         <a

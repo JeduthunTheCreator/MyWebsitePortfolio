@@ -1,6 +1,7 @@
 ﻿import '../styles/Hero.css';
 import { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
+import zaraImage from '/Images/ZARA.jpeg';
 
 const Hero = () => {
     const el = useRef(null);
@@ -31,7 +32,7 @@ const Hero = () => {
 
     return (
         <div className="hero-wrapper">
-            <section className="hero">
+            <section className="hero" style={{ backgroundImage: `url(${zaraImage})` }}>
                 <div className="hero-content">
                     <div data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300" data-aos-easing="ease-in-sine">
                         <h1>Hey, I'm Jeduthun</h1>

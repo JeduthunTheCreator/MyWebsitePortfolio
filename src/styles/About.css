@@ -53,7 +53,7 @@
     padding-left: 30px;
     margin-left: 180px;
     mix-blend-mode: hard-light;
-    top: -20px;
+    top: -26px;
     filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.5));
 }
 
@@ -66,28 +66,17 @@
     top: -10%;
     left: -9%;
     width: 109%;
-    height: 85%;
+    height: 84%;
     z-index: 2;
     opacity: 0.9;
     mix-blend-mode: screen;
-}
-
-.overlay-1::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.2); /* slightly darken */
-    z-index: 1;
 }
 
 .overlay-1 img {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    filter: blur(0.4px);
+    filter: blur(0.3px);
 }
 
 .overlay-2 {
@@ -278,6 +267,10 @@
         flex: 1 1 100%;
     }
 
+    .main-image {
+        margin-left: 55px;
+    }
+
     .timeline::before {
         left: 50%;
     }
@@ -302,6 +295,19 @@
 
     .about-img-box {
         padding-bottom: 90px;
+    }
+
+    .main-image {
+        filter: brightness(0.9)
+    }
+
+    .overlay-1 {
+        filter: brightness(1.0);
+        height: 470px;
+    }
+
+    .main-image {
+        margin-left: 124px;
     }
 
     .about-img-box,
