@@ -1,5 +1,5 @@
 ﻿import React from 'react';
-import backgroundImg from '/Images/Stylist.jpeg'; // Replace with your image
+import backgroundImg from '/assets/Stylist.jpeg'; 
 
 const FashionHero = () => {
     return (

@@ -55,7 +55,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
             <div className="nav-inner">
                 <div className="logo-container">
                     <Link to="/">
-                        <img src="/Images/Logo.png" alt="Jeduthun Logo" className="logo" />
+                        <img src="/assets/Logo.png" alt="Jeduthun Logo" className="logo" />
                     </Link>
                 </div>
 

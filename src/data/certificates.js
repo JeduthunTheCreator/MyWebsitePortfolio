@@ -1,7 +1,7 @@
-﻿import azureImg from '/Images/Azure4.png';
-import peopleImg from '/Images/people1st2.jpeg';
-import barcImg from '/Images/Barclays2.png';
-import TDCImg from '/Images/TDC.jpeg';
+﻿import azureImg from '/assets/Azure4.png';
+import peopleImg from '/assets/people1st2.jpeg';
+import barcImg from '/assets/Barclays2.png';
+import TDCImg from '/assets/TDC.jpeg';
 
 const certificates = [
     {
