@@ -1,6 +1,6 @@
 ﻿import React from "react";
 import "../styles/Skills.css";
-import  skillsData from '../data/skillsData.jsx';
+import  skillsData from '../hooks/data/skillsData.jsx';
 
 import TagSphere from "./TagSphere.jsx";
 

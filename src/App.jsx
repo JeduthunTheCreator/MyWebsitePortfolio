@@ -15,6 +15,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import "@fontsource/playfair-display";
 import "@fontsource/inter";
 import Lenis from 'lenis';
+import 'normalize.css';
 
 
 

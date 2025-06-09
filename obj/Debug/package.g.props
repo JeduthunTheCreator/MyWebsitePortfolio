@@ -20,6 +20,7 @@
     <PackageJsonDependenciesBootstrapIcons Condition="$(PackageJsonDependenciesBootstrapIcons) == ''">^1.11.3</PackageJsonDependenciesBootstrapIcons>
     <PackageJsonDependenciesFramerMotion Condition="$(PackageJsonDependenciesFramerMotion) == ''">^12.15.0</PackageJsonDependenciesFramerMotion>
     <PackageJsonDependenciesLenis Condition="$(PackageJsonDependenciesLenis) == ''">^1.3.4</PackageJsonDependenciesLenis>
+    <PackageJsonDependenciesNormalizeCss Condition="$(PackageJsonDependenciesNormalizeCss) == ''">^8.0.1</PackageJsonDependenciesNormalizeCss>
     <PackageJsonDependenciesPropTypes Condition="$(PackageJsonDependenciesPropTypes) == ''">^15.8.1</PackageJsonDependenciesPropTypes>
     <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">^19.0.0</PackageJsonDependenciesReact>
     <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">^19.0.0</PackageJsonDependenciesReactDom>

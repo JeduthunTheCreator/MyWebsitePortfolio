@@ -4,7 +4,7 @@ import { useRef, useEffect } from 'react';
 import { useScroll } from 'framer-motion';
 import { ProjectCard } from '../components/ProjectCard';
 import ErrorBoundary from '../components/ErrorBoundary';
-import { projects } from '../data/projects';
+import { projects } from '../hooks/data/projects';
 
 
 const Portfolio = () => {

@@ -3,7 +3,7 @@ import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import '../styles/Certificates.css';
-import certificates from '../data/certificates';
+import certificates from '../hooks/data/certificates';
 
 const Certificates = () => {
     return (

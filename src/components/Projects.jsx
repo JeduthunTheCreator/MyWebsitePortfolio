@@ -1,6 +1,6 @@
 ﻿import '../styles/Projects.css';
 import { Link } from 'react-router-dom';
-import projects from  '../data/projectsLists'
+import projects from  '../hooks/data/projectsLists'
 
 const Projects = () => {
 

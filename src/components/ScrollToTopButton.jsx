@@ -15,12 +15,14 @@ const ScrollToTopButton = () => {
     }, []);
 
     const scrollToTop = () => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
+        console.log("Button clicked");
+        window.scrollTo({ top: 0 });
+        console.log("Scrolling to top...");
     };
 
     return (
         visible && (
-            <button className="scroll-to-top" onClick={scrollToTop}>
+            <button className="scroll-to-top" onClick={scrollToTop} aria-label="Scroll to top">
                 <FaArrowUp />
             </button>
         )

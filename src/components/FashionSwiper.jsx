@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import "swiper/css";
 import "swiper/css/free-mode";
 import "../styles/FashionSwiper.css";
-import images from '../data/images'
+import images from '../hooks/data/images'
 
 const FashionSwiper = () => {
     return (

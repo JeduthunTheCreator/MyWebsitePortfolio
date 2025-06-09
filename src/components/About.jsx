@@ -96,7 +96,7 @@ const About = () => {
                                     <p>I’m driven by a passion to innovate at the intersection of tech and fashion — and I’m always open to new opportunities. Let’s connect and create something great.</p>
                                 </div>
                                 <div className="buttons" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="100" data-aos-easing="ease-in-sine" data-aos-once="true">
-                                    <a href="/assets/Jeduthun-Tech.pdf" download className="custom-link">Download CV</a>
+                                    <a href="/assets/Jeduthun Idemudia Tech.docx" download className="custom-link">Download CV</a>
                                 </div>
                             </div>
                         </div>

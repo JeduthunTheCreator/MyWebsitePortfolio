@@ -1,5 +1,5 @@
 ﻿import '../styles/Services.css';
-import services from '../data/services.js';
+import services from '../hooks/data/services.js';
 
 const Services = () => {
     return (

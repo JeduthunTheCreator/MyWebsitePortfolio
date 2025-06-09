@@ -1,7 +1,7 @@
 ﻿// TagSphere.jsx
 import React, { useEffect, useState, useRef } from 'react';
 import '../styles/TagSphere.css';
-import  icons  from '../data/icons';
+import  icons  from '../hooks/data/icons';
 
 const TagSphere = () => {
     const [radius, setRadius] = useState(150);

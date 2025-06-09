@@ -71,8 +71,15 @@ body, html {
     overscroll-behavior: none;
     overflow-x: hidden;
     width: 100%;
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
 .section-title .title {
     font-size: 40px;
